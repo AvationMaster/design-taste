@@ -56,7 +56,7 @@ None of these are features. Each one is the difference between "nice" and "his".
 
 ## Motion
 
-- Never show two versions of the same thing.
+- Never show two different states. A brief, aligned crossfade is still one truth.
 - Never cut a layer. Fade the last frame (`0.55s`) or wipe it (`0.7s`).
 - The incoming layer covers the outgoing one before the outgoing one disappears.
 - Break from the rim, not from a random order.

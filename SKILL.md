@@ -20,10 +20,12 @@ This is distilled from two pieces only:
 A piece has a single physical idea. Photographs assemble from dust. A page descends from sky to ground. Every transition, cursor response and caption must be explainable by that idea. If an effect needs a paragraph to justify it, it is decoration.
 
 ### 2. Design the seam first
-Amateurs polish states. The memory is in the hand-off. Decide how A becomes B before you polish A or B: what covers what, when the old layer is allowed to disappear, and what the frame in between looks like. No cuts, no hard edges, no two truths crossfading.
+Amateurs polish states. The memory is in the hand-off. Decide how A becomes B before you polish A or B: what covers what, when the old layer is allowed to disappear, and what the frame in between looks like. No cuts, no hard edges, no two different states crossfading.
 
 ### 3. One truth at a time
-Never show two representations of the same thing. When the print is in, the grain is gone. When the grain is the picture, the print is hidden. When the scroll cue has done its job, it is removed. If two layers are visible, one of them is lying.
+Never show two different states at once. When the print is in, the grain is gone. When the grain is the picture, the print is hidden. When the scroll cue has done its job, it is removed.
+
+A hand-off may briefly overlap two layers, but they must be the same image in the same place — a crossfade, not a double exposure. If two *different* states are visible, one of them is lying.
 
 ### 4. Say it once
 No eyebrow labels. No "scroll to explore". No explanation of the interface. A title, one line, metadata. If a label describes what the visitor can already see, delete it. The smallest copy change usually makes the biggest difference.
@@ -41,7 +43,7 @@ A stutter is a visible flaw. One loop, one draw call where possible, transform a
 Reduced motion is not "turn the animations off". It is another art direction: the first frame, the right crop, the copy visible, the colour still doing its job. No WebGL? Show the photograph. No JS? The first image is already there.
 
 ### 9. One joke, built seriously
-At most one human detail, executed with real craft. A fully modelled character fishing in the footer. A "made with ❤" line at the end of a hook. Not jokes in every caption, not emoji in the headings. One, and it lands because everything around it is straight.
+At most one comedic set piece, executed with real craft. A fully modelled character fishing in the footer. A "made with ❤" line at the end of a hook. Everything around it stays dry: no jokes in every caption, no emoji in the headings. One, and it lands because the rest is straight.
 
 ### 10. Invent nothing
 Real photographs, real metadata, real presence. If you do not know a client, a date, an email or a result, leave the space empty. Placeholders get flagged in the hand-off, never dressed up as content. A beautiful lie is still a lie.

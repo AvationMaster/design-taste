@@ -76,7 +76,7 @@ This is the part worth studying.
 - **Form:** particles spring to their print positions. They stay white dust until they are nearly home, then flood with colour. Their sprites square off as they arrive, so they tile the cell.
 - At **1.04s** the print — a real `<img>` above the canvas — begins a **0.95s** fade to opacity 1 while the grain is still visible beneath it.
 - **1.05s after** the print is fully opaque, the canvas fades to 0 over **0.55s**.
-- **Break:** the canvas is restored instantly *beneath* the opaque print, then the print's `clip-path` wipes from the edges to the centre over **0.7s**. No gap, no flash, no frame with both truths.
+- **Break:** the canvas is restored instantly *beneath* the opaque print, then the print's `clip-path` wipes from the edges to the centre over **0.7s**. No gap, no flash, no frame where two different states are visible.
 
 **Why it works:** the incoming layer must be able to cover the outgoing one before the outgoing one is allowed to leave. Hiding the canvas when the print merely starts fading would dim the scene. Fading the canvas early would expose the rim. Hiding it in one frame would pop. The order is the design.
 
